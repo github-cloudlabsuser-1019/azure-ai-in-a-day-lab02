@@ -22,6 +22,7 @@ variables:
 - group: devopsforai-aml-vg
 
 pool: odluser553255-project-agent-pool
+
 stages:
 - stage: 'Model_CI'
   displayName: 'Model CI'
