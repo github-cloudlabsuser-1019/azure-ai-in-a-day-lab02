@@ -169,7 +169,7 @@ def main():
     df = dataset.to_pandas_dataframe()
     data = split_data(df)
 
-    class_args = {"max_depth": 4}
+    class_args = {"max_depth": 5}
     # Train the model
     model = train_model(data, class_args)
 
